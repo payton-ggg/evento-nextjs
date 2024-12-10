@@ -1,7 +1,7 @@
 const page = () => {
   return (
     <main>
-      <div>Terms and conditions</div>
+      <div>page</div>
     </main>
   );
 };
