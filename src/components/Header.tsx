@@ -3,10 +3,12 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header>
+    <header className="flex justify-between">
       <Logo />
-      <Link href="/">Home</Link>
-      <Link href="/events/all">All events</Link>
+      <nav>
+        <Link href="/">Home</Link>
+        <Link href="/events/all">All events</Link>
+      </nav>
     </header>
   );
 };
